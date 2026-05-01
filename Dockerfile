@@ -13,4 +13,4 @@ RUN useradd -ms /bin/bash choreouser
 USER choreouser
 
 # Execute the script when the container runs
-ENTRYPOINT ["python3", "/scripts/detect_copyfail.py"]
+ENTRYPOINT ["python3", "/scripts/cve_2026_31431_detector.py"]
